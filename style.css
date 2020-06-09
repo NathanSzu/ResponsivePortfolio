@@ -1,4 +1,5 @@
 /* Site defaults. */
+
 body {
     background-image: url(Assets/herringbone.png);
 }
@@ -97,7 +98,7 @@ nav {
 }
 
 .card-body {
-    padding: 0;
+    padding: 0px;
     margin: 15px;
 }
 
@@ -125,9 +126,6 @@ nav {
 
 .link {  
     margin-left: 10px;
-
-.bio {
-
 }
 
 @media screen and (max-width: 640px) {
@@ -140,16 +138,19 @@ nav {
 /* Gallery images. */
 .portfolio {
     position: relative;
-    padding: 0px;
+    margin-bottom: 20px;
 }
 
 /* Text overlay. */
 .overlay {
     position: absolute ;
-    width: 100%;
-    height: 15%;
+    left: 15px;
+    right: 15px;
+    bottom: 20px;
+    height: 40px;
     background-color: #4aaaa5;
     opacity: 75%;
+    text-align: center;
 }
 
 /* Contact. */
