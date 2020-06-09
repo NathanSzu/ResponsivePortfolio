@@ -3,6 +3,16 @@ body {
     background-image: url(Assets/herringbone.png);
 }
 
+ /* Regular font color */
+.p {
+    color: #777777;
+}
+
+/* Regular heading color. */
+.h {
+    color: #4aaaa5;
+}
+
 ul {
     list-style: none;
 }
@@ -23,7 +33,7 @@ nav {
     position: relative;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
     .nav {
         background-color: white;
         left: 0px;
@@ -46,7 +56,7 @@ nav {
     padding-right: 15px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
     .brand {
         width: 100%;
         position: absolute;
@@ -59,7 +69,7 @@ nav {
     color: white;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
     .brand-text {
         text-align: center;
     }
@@ -71,7 +81,7 @@ nav {
     top: 30px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
     .card {
         top: 70px;
         left: 0px;
@@ -84,7 +94,7 @@ nav {
     left: 5%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
     .container {
         position: absolute;
         left: 0px;
@@ -102,11 +112,32 @@ nav {
 
 /* Profile picture. */
 .about-img {
-    width: 40%;
+    width: 100%;
     height: auto;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+/* Icons */
+
+.icon {
+    width: 30px;
+    height: auto;
+    float: left;
+}
+
+.link {  
+    margin-left: 10px;
+
+.bio {
+
+}
+
+@media screen and (max-width: 640px) {
+    .bio {
+        text-align: center;
+    }
 }
 
 /* Portfolio */
