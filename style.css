@@ -153,6 +153,17 @@ nav {
     text-align: center;
 }
 
+.overlay:hover {
+    opacity: 100%;
+    bottom: 22px;
+}
+
+.overlay-header {
+    font-size: 22px;
+    margin-top: 4px;
+    color: black;
+}
+
 /* Contact. */
 
 .btn {
