@@ -11,3 +11,5 @@ CSS positioning
 This project is a work in progress and will continue to be updated as I finish other work.
 
 This portfolio can be found at https://nathanszu.github.io/ResponsivePortfolio/
+
+<img src="https://raw.githubusercontent.com/NathanSzu/ResponsivePortfolio/master/Assets/PortfolioSS.png">
