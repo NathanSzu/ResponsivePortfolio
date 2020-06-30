@@ -160,9 +160,16 @@ nav {
     text-align: center;
 }
 
-.portfolio-title{
+.portfolio-title {
     font-size: 24px;
     text-align: center;
+}
+
+.img-border {
+    border: #4aaaa5;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
 }
 
 /* Contact. */
