@@ -102,6 +102,10 @@ nav {
     margin: 15px;
 }
 
+.skill-list {
+    list-style-position: unset;
+}
+
 .col-md-9 {
     padding: 0px;
 }
@@ -128,17 +132,22 @@ nav {
     margin-left: 10px;
 }
 
-@media screen and (max-width: 640px) {
-    .bio {
-        text-align: center;
-    }
+.bio {
+    text-align: center;
+    margin: unset;
+    margin-bottom: 10px;
+    padding: unset;
 }
-
 
 /* Gallery images. */
 .portfolio {
     position: relative;
     margin-bottom: 20px;
+}
+
+.repo-btn {
+    width: 45%;
+    font-weight: 500;
 }
 
 /* Text overlay. */
@@ -148,20 +157,12 @@ nav {
     right: 15px;
     bottom: 20px;
     height: 40px;
-    background-color: #4aaaa5;
-    opacity: 75%;
     text-align: center;
 }
 
-.overlay:hover {
-    opacity: 100%;
-    bottom: 22px;
-}
-
-.overlay-header {
-    font-size: 22px;
-    margin-top: 4px;
-    color: black;
+.portfolio-title{
+    font-size: 24px;
+    text-align: center;
 }
 
 /* Contact. */
