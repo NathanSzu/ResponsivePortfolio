@@ -7,6 +7,7 @@ body {
  /* Regular font color */
 .p {
     color: #777777;
+    font-size: 16px;
 }
 
 /* Regular heading color. */
@@ -163,6 +164,13 @@ nav {
 .portfolio-title {
     font-size: 24px;
     text-align: center;
+}
+
+.resume-link {
+    color: #777777;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .img-border {
