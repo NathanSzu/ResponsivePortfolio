@@ -199,10 +199,11 @@ nav {
 }
 
 .img-border {
-    border: #4aaaa5;
+    border: #aed3d2;
     border-style: solid;
     border-radius: 10px;
-    border-width: 2px;
+    border-width: 3px;
+    
 }
 
 /* Contact. */
