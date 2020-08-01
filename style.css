@@ -12,7 +12,7 @@ body {
 
 /* Regular heading color. */
 .h {
-    color: #777;
+    color: #262626;
 }
 
 ul {
@@ -180,6 +180,11 @@ nav {
 .repo-btn {
     width: 45%;
     font-weight: 500;
+    border: none;
+}
+
+.repo-btn:hover {
+    background-color: #262626;
 }
 
 /* Text overlay. */
@@ -195,6 +200,7 @@ nav {
 .portfolio-title {
     font-size: 24px;
     text-align: center;
+    color: #262626;
 }
 
 .img-border {
