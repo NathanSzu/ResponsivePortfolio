@@ -1,7 +1,7 @@
 /* Site defaults. */
 
 body {
-    background-image: url(Assets/herringbone.png);
+    background-image: url(Assets/dark-honeycomb.png);
 }
 
  /* Regular font color */
@@ -12,7 +12,7 @@ body {
 
 /* Regular heading color. */
 .h {
-    color: #4aaaa5;
+    color: #777;
 }
 
 ul {
@@ -53,7 +53,6 @@ nav {
     left: 5%;
     float: left;
     height: 60px;
-    background-color: #4aaaa5;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -199,16 +198,16 @@ nav {
 }
 
 .img-border {
-    border: #aed3d2;
+    border: #777;
     border-style: solid;
     border-radius: 10px;
-    border-width: 3px;
+    border-width: 1px;
     
 }
 
 /* Contact. */
 
 .btn {
-    background-color: #4aaaa5;
+    background-color: #777;
 }
 
