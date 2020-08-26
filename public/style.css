@@ -4,6 +4,32 @@ body {
     background-image: url(Assets/dark-honeycomb.png);
 }
 
+#send-msg {
+    opacity: 0%;
+}
+
+.send-confirmation {
+    float: right;
+    background-color: lightgreen;
+    padding-left: 7px;
+    padding-right: 7px;
+    animation-name: sent;
+    animation-duration: 3s;
+    opacity: 0%;
+}
+
+@keyframes sent {
+    0% {
+        opacity: 100%;
+    }
+    25% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
  /* Regular font color */
 .p {
     color: #777777;
